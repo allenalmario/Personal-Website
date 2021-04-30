@@ -1,0 +1,206 @@
+/* CSS rules for the whole website */
+
+body {
+	width: auto;
+	margin: auto;
+}
+
+h1 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* puts padding for the content of the webpages */
+#container {
+	padding: 40px;
+}
+
+/* CSS for header */
+.header {
+	height: 200px;
+	width: 100%;
+	background-color: #778899;
+	text-align: center;
+	padding-top: 10px;
+}
+.header li {
+  display: inline; /* makes navigation */
+  margin-right: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  border-style: solid;
+  padding: 5px;
+  background-color: gold;
+}
+
+/* CSS for links */
+a:link {
+	color: blue;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+	color: #32CD32
+}
+a:active {
+	color: red;
+}
+
+/* CSS for Home page */
+
+.home #container {
+	background-attachment: fixed;
+	background-image: url("../images/uw_tacoma.jfif");
+	display: block;
+	position: absolute;
+	background-color: hsla(0, 0%, 100%, 0.70); /* color, opacity */
+	background-blend-mode: overlay; /* opacity on the background image only */
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#selfie, #intro_par { /*Center selfie and box that houses intro paragraph */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#intro_par {
+	border-style: double;
+	border-width: 15px;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 30px;
+}
+#replace {
+	font-weight: bold;
+}
+#fact {
+	background-color: yellow;
+}
+
+/* CSS for Place I've Been To page */
+.places {
+	background-attachment: fixed;
+	background-image: url("../images/world_map.jfif");
+	display: block;
+	/* position: absolute; this causes the places page not to be flush with the page */
+	background-color: hsla(0, 0%, 100%, 0.70); /* color, opacity */
+	background-blend-mode: overlay; /* opacity on the background image only */
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+.places #container { /* Two Columns */
+	width: 1000px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.places #container #left {
+	width: 60%;
+	float: left;
+}
+.places #container #right {
+	width: 40%;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+} /* Two Columns */
+#sin {
+	color: red;
+	font-weight: bold;
+}
+#hot {
+	color: orange;
+	font-weight: bold;
+}
+#cali {
+	font-style: italic;
+}
+
+/* CSS for Random Facts page */
+.facts #container { /* Two Columns */
+	width: 800px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.facts #container #left {
+	width: 40%;
+	float: left;
+	font-size: 30px;
+	height: 10em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.facts #container #right {
+	width: 60%;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} /* Two Columns */
+
+/* Where Have You Travelled To Page */
+
+.where {
+	background-attachment: fixed;
+	background-image: url("../images/world_map.jfif");
+	display: block;
+	/* position: absolute; this causes the places page not to be flush with the page */
+	background-color: hsla(0, 0%, 100%, 0.70); /* color, opacity */
+	background-blend-mode: overlay; /* opacity on the background image only */
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+.where #container {
+	margin: auto;
+	text-align: center;
+	width: 500px;
+}
+
+/*Submitted PHP */
+
+.submitted {
+	background-attachment: fixed;
+	background-image: url("../images/world_map.jfif");
+	display: block;
+	/* position: absolute; this causes the places page not to be flush with the page */
+	background-color: hsla(0, 0%, 100%, 0.70); /* color, opacity */
+	background-blend-mode: overlay; /* opacity on the background image only */
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+.submitted #container {
+	text-align: center;
+	font-size: 30px;
+}
+
+/* Shared Locations Page */
+
+.shared table {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.shared td {
+	padding: 10px;
+	text-align: center;
+}
+
+.shared table, th, td {
+	border: 2px solid black;
+}
+
+.shared {
+	background-attachment: fixed;
+	background-image: url("../images/uw_tacoma.jfif");
+	display: block;
+	/* position: absolute; this causes the places page not to be flush with the page */
+	background-color: hsla(0, 0%, 100%, 0.70); /* color, opacity */
+	background-blend-mode: overlay; /* opacity on the background image only */
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+}

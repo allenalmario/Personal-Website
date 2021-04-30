@@ -1,0 +1,37 @@
+<!--Where Have You Travelled To Page-->
+
+<!DOCTYPE HTML>
+
+<HTML class="where">
+	<head>
+		<title>Where Have You Travelled To</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"> <!--External CSS-->
+	</head>
+
+	<body>
+
+		<div class="header">
+		<img src="images/LogoMakr_9SL8Uq.jpeg" alt="My Logo">
+		<p>Created my freelogo at <a href="https://logomakr.com/"
+		target="_blank">Logomakr.com</a></p>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="places.html">Places I've Been To</a></li>
+			<li><a href="facts.html">Random Facts</a></li>
+			<li><a class="active" href="where.html">Where Have You Travelled To?</a></li>
+			<li><a href="shared_locations.php">Shared Locations</a></li>
+		</ul>
+		</div>
+
+		<div id="container">
+		<h1>Where Have You Travelled To?</h1>
+		<h2>Submit one place you have gone to down below!</h2>
+		<form action="submitted.php" method="post">
+			<label>First Name <input type="text" name="first_name" size="30" maxlength="50"></label><br />
+			<label>Location <input type="text" name="location" size="30" maxlength="50"></label><br />
+			<input type="submit" value="Submit" />
+		</form>
+		</div>
+
+	</body>
+</html>
